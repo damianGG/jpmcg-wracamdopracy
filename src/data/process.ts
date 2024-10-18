@@ -30,7 +30,7 @@ export const processList1 = [
   },
   {
     no: "3",
-    title: "pozostające bez pracy – bezrobotne lub bierne zawodowe",
+    title: "pozostające bez pracy – bezrobotne lub bierne zawodowo",
     className: "me-lg-6 mt-6",
     subtitle: "",
     shadow: true

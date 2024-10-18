@@ -21,7 +21,7 @@ export default function Footer2() {
 
               <div className="col-md-3">
                 <div className="widget">
-                  <p className="widget-title fs-15 fw-bold"><i className="uil uil-map me-2 fs-25" ></i> Adres (biuro projektu)</p>
+                  <p className="widget-title fs-15 fw-bold"><i className="uil uil-map me-2 fs-25" ></i> Adres (Biuro projektu)</p>
                   <address>
                     ul. Budowlana 50, pok. 202<br className="d-none d-md-block" />20-469 Lublin
                   </address>

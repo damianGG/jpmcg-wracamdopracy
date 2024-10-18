@@ -7,6 +7,7 @@ import Toplogo from "@/components/blocks/navbar/top-logo/Toplogo";
 import Footer2 from "@/components/blocks/footer/Footer2";
 import Link from "next/link";
 import AccessibilityButton from "@/components/reuseable/AccessibilityButton";
+import PopupForm from "@/components/blocks/form/popupform";
 
 
 
@@ -31,7 +32,7 @@ export default function RootLayout({
       </head>
       <body className={manrope.className}>
 
-        <NavbarOne button={<Link title="Contact" href="/rekrutacja" className="btn btn-sm btn-primary rounded-pill">Zapisz się</Link>} />
+        <NavbarOne button={<PopupForm />} />
         <AccessibilityButton />
         <div>{children}</div>
         <Footer2 />

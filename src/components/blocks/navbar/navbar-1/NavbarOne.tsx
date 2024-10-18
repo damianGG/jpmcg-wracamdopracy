@@ -81,11 +81,11 @@ export default function NavbarOne({
         <div className="offcanvas-body ms-lg-auto d-flex flex-column h-100">
           <ul className="navbar-nav ">
             {/* <PagesNavItem /> */}
-            <li><Link className="nav-link fs-20" href="/o-projekcie">O Projekcie</Link></li>
+            <li><Link className="nav-link fs-25" href="/o-projekcie">O Projekcie</Link></li>
 
-            <li><Link className="nav-link fs-20" href="/aktualnosci">Aktualności</Link></li>
-            <li><Link className="nav-link fs-20" href="/rekrutacja">Rekrutacja</Link></li>
-            <li><Link className="nav-link fs-20" href="/kontakt">Kontakt</Link></li>
+            <li><Link className="nav-link fs-25" href="/aktualnosci">Aktualności</Link></li>
+            <li><Link className="nav-link fs-25" href="/rekrutacja">Rekrutacja</Link></li>
+            <li><Link className="nav-link fs-25" href="/kontakt">Kontakt</Link></li>
           </ul>
 
 

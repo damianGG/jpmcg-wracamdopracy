@@ -2,6 +2,7 @@ import Link from "next/link";
 // CUSTOM UTILS
 import { slideInDownAnimate, zoomInAnimate } from "@/utils/animation";
 import Image from "next/image";
+import PopupForm from "../form/popupform";
 // import DietetykPhoto from "lubelskie1.jpg";
 
 
@@ -42,7 +43,7 @@ export default function Hero4() {
 
             <div className="d-flex justify-content-center justify-content-lg-start">
               <span style={slideInDownAnimate("1200ms")}>
-                <Link href="/rekrutacja" className="btn btn-lg btn-primary rounded-pill me-2" >Zapisz się</Link>
+                <PopupForm />
               </span>
               <span style={slideInDownAnimate("1200ms")}>
                 <Link href="/aktualnosci" className="btn btn-lg btn-outline-primary rounded-pill" >Aktualności</Link>

@@ -6,6 +6,7 @@ const backendLink = process.env.STRAPI_PUBLIC_BACKEND_LINK;
 // ==============================================================
 interface DownloadListProps {
   title: string;
+  podtytul?: string;
   link1: string;
   link2: string;
   shadow?: boolean;
@@ -13,7 +14,7 @@ interface DownloadListProps {
 }
 // ==============================================================
 
-export default function DownloadList({ title, className = '', shadow, link1, link2 }: DownloadListProps) {
+export default function DownloadList({ title, podtytul, className = '', shadow, link1, link2 }: DownloadListProps) {
   return (
     <>
       <div
@@ -26,6 +27,7 @@ export default function DownloadList({ title, className = '', shadow, link1, lin
           <div className="d-flex flex-row justify-content-between align-items-center">
             <div className="grow-1 w-75 pe-3">
               <h4 className="mb-1 text-start">{title}</h4>
+              <p className="mb-1 text-start">{podtytul}</p>
             </div>
             <div className="d-flex">
               <Link href={`${link1}`} >

@@ -1,5 +1,6 @@
 import Link from "next/link";
 import type { Metadata } from 'next'
+import ContactForm from "@/components/blocks/form/form";
 export const metadata: Metadata = {
     title: 'Kontakt do projektu „Kobieta * Aktywność * Sukces',
     description: 'Kontakt do projektu „Kobieta * Aktywność * Sukces” w Radomiu i gminie Wieniawa oraz do biura projektu J&P Moritz Consulting Group Sp. z o. o. w Wrocławiu',
@@ -83,6 +84,14 @@ export default function Kontakt() {
                             #FunduszeUE #FunduszeEuropejskie
                         </Link>
 
+                    </div>
+                </div>
+                <div className="container">
+                    <h3 className="text-center">Formularz kontaktowy</h3>
+                    <div className="row justify-content-center">
+                        <div className="col-md-6">
+                            <ContactForm />
+                        </div>
                     </div>
                 </div>
             </div>

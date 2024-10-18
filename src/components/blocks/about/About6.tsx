@@ -15,15 +15,30 @@ export default function About6() {
         <div className="col-lg-12">
 
           <h2 className="display-4 mb-3 text-center mb-10">Zapraszamy do projektu <br></br> „Wracam do pracy!”</h2>
-
-          <p className="lead fs-lg">
-            W szczególności do udziału w projekcie zapraszamy kobiety powracające na rynek
-            pracy po przerwie związanej z koniecznością opieki nad dzieckiem lub osobą zależną.
-          </p>
         </div>
       </div>
 
       <div className="row gx-lg-8 gx-xl-12 gy-10 mb-14  align-items-center ">
+        <div className="col-lg-12">
+          <p className="lead fs-lg">
+            Kto może wziąć udział w projekcie? Osoby:
+          </p>
+          <div className="row gy-3 ">
+            <div className="col-xl-12">
+              <ul className="icon-list bullet-bg bullet-soft-primary mb-0">
+                <li><i className="uil uil-check"></i>w wieku powyżej 18 roku życia</li>
+                <li className="mt-3"><i className="uil uil-check"></i>pozostające bez pracy (bezrobotne lub bierne zawodowo)</li>
+                <li className="mt-3"><i className="uil uil-check"></i>mieszkające na obszarze woj. lubelskiego</li>
+              </ul>
+            </div>
+
+            <p className=""> <strong>W szczególności do udziału w projekcie zapraszamy kobiety powracające na rynek
+              pracy po przerwie związanej z koniecznością opieki nad dzieckiem  lub osobą zależną.
+            </strong></p>
+
+          </div>
+
+        </div>
         <div className="col-lg-6 position-relative order-lg-2">
         </div>
         <div className="col-lg-12">
@@ -56,25 +71,7 @@ export default function About6() {
 
         </div>
 
-        <div className="col-lg-12">
-          <p className="lead fs-lg">
-            W Projekcie mogą uczestniczyć kobiety spełniające następujące warunki:
-          </p>
-          <div className="row gy-3 ">
-            <div className="col-xl-12">
-              <ul className="icon-list bullet-bg bullet-soft-primary mb-0">
-                <li><i className="uil uil-check"></i>w wieku powyżej 18 roku życia</li>
-                <li className="mt-3"><i className="uil uil-check"></i>pozostające bez pracy (bezrobotne lub bierne zawodowo)</li>
-                <li className="mt-3"><i className="uil uil-check"></i>mieszkające na obszarze woj. lubelskiego</li>
-              </ul>
-            </div>
 
-            <p className="">W szczególności do udziału w projekcie zapraszamy kobiety powracające na rynek
-              pracy po przerwie związanej z koniecznością opieki nad dzieckiem lub osobą zależną.</p>
-
-          </div>
-
-        </div>
       </div>
 
     </div>
