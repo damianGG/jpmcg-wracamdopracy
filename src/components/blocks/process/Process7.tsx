@@ -162,7 +162,7 @@ export default async function Process7() {
                     </div>
 
                     <div>
-                      <h4 className="mb-1">Zgromadź pozostałe wymagane załączniki</h4>
+                      <h4 className="mb-1">Zgromadź pozostałe wymagane załączniki </h4>
                       <p className="mb-0"></p>
                     </div>
                   </div>
