@@ -3,6 +3,7 @@
 import { slideInDownAnimate } from "@/utils/animation";
 import { useState } from "react";
 import ContactForm from "./form";
+import Image from "next/image";
 
 
 export default function PopupForm() {
@@ -37,37 +38,41 @@ export default function PopupForm() {
                         aria-hidden="false"
                         role="dialog"
                     >
-                        <div className="modal-dialog modal-lg" role="document">
-                            <div className="modal-content">
-                                <div className="row no-gutters">
-                                    {/* Left side: Image */}
-                                    <div className="col-md-5 d-none d-md-block">
-                                        <img
-                                            src="/img/women-meet.jpg"
-                                            alt="Dotacje dla firm"
-                                            className="img-fluid"
-                                            style={{ height: '100%', objectFit: 'cover' }}
-                                        />
-                                    </div>
+                        {/* Modal */}
+                        <div
+                            className="modal fade show"
+                            style={{ display: 'block' }}
+                            tabIndex={-1}
+                            aria-labelledby="contactFormModalLabel"
+                            aria-hidden="true"
+                            role="dialog"
+                        >
+                            <div className="modal-dialog modal-xl" role="document">
+                                <div className="modal-content">
+                                    <div className="row g-0">
+                                        {/* Left side: Image */}
+                                        <div className="col-md-6" style={{ height: '650px', position: 'relative' }}>
+                                            <Image
+                                                src="/img/photos/shutterstock_2450796369.jpg"
+                                                alt="Dotacje dla firm"
+                                                layout="fill"
+                                                objectFit="cover"
+                                                quality={100}
+                                                priority={true}
+                                            />
+                                        </div>
 
-                                    {/* Right side: Form */}
-                                    <div className="col-md-7">
-                                        <div className="modal-header ps-4">
-                                            <h3 className="modal-title ps-0" id="contactFormModalLabel">
-                                                Zapraszamy do bezpłatnego udziału w projekcie
-                                            </h3>
+                                        {/* Right side: Form */}
+                                        <div className="col-md-6 p-4 position-relative">
                                             <button
                                                 type="button"
-                                                className="btn-close"
+                                                className="btn-close position-absolute top-0 end-0 m-3"
                                                 onClick={handleClose}
                                                 aria-label="Zamknij"
                                             ></button>
-                                        </div>
-                                        <p className="ps-4">Zostaw kontakt, oddzwonimy!</p>
-                                        <div className="">
+                                            <h3 className="mb-4">Zapraszamy do bezpłatnego udziału w projekcie</h3>
+                                            <p>Zostaw kontakt, oddzwonimy!</p>
                                             <ContactForm />
-
-
                                         </div>
                                     </div>
                                 </div>
