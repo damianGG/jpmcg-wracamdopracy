@@ -12,6 +12,8 @@ const transporter = nodemailer.createTransport({
     user: SMTP_SERVER_USERNAME,
     pass: SMTP_SERVER_PASSWORD,
   },
+  tls: { rejectUnauthorized: false },
+  greetingTimeout: 10000, 
 });
 
 export async function sendMail({
@@ -35,9 +37,10 @@ export async function sendMail({
     return;
   }
   const info = await transporter.sendMail({
-    from: email,
-    to: sendTo || SITE_MAIL_RECIEVER,
-    subject: subject,
+    from: `"Formularz ze strony czaskobiet`, 
+    replyTo: email,
+    to: sendTo || SITE_MAIL_RECIEVER, 
+    subject: 'Formularz ze strony czaskobiet.com.pl',
     text: text,
     html: html ? html : '',
   });
