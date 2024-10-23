@@ -37,10 +37,10 @@ export async function sendMail({
     return;
   }
   const info = await transporter.sendMail({
-    from: `"Formularz ze strony czaskobiet`, 
-    replyTo: email,
+    from: `Formularz ze strony wracamdopracy`, 
+    replyTo: "kontakt@jpmcg.pl",
     to: sendTo || SITE_MAIL_RECIEVER, 
-    subject: 'Formularz ze strony czaskobiet.com.pl',
+    subject: 'Formularz ze strony wracamdopracy.com.pl',
     text: text,
     html: html ? html : '',
   });
