@@ -136,7 +136,7 @@ export default function News() {
                             <div>
                                 <figure className="rounded shadow">
                                     <Image
-                                        src="/img/photos/student.jpg"
+                                        src="/img/photos/shutterstock_2424450783.jpg"
                                         width={600}
                                         height={1000}
                                         alt="hero"
@@ -281,14 +281,14 @@ export default function News() {
                             <div>
                                 <figure className="rounded shadow">
                                     <Image
-                                        src="/img/photos/shutterstock_283445021.jpg"
+                                        src="/img/photos/shutterstock_283445021_przyciete2.jpg"
                                         width={600}
                                         height={1000}
                                         alt="hero"
                                     />
                                 </figure>
                             </div>
-                            {/* <div className="shape bg-dot primary rellax w-16 h-20" style={{ top: "14rem", left: "-2.5rem", zIndex: "-1" }} /> */}
+                            <div className="shape bg-dot primary rellax w-16 h-20" style={{ top: "18rem", left: "-2.5rem", zIndex: "-1" }} />
 
                         </div>
                     </div>
