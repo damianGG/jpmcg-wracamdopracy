@@ -136,7 +136,7 @@ export default function News() {
                             <div>
                                 <figure className="rounded shadow">
                                     <Image
-                                        src="/img/photos/shutterstock_2424450783.jpg"
+                                        src="/img/photos/shutterstock_2489860569.jpg"
                                         width={600}
                                         height={1000}
                                         alt="hero"
