@@ -65,7 +65,7 @@ export default function About6() {
                 <li className="mt-3"><i className="uil uil-check"></i>zwrot kosztów dojazdu na szkolenia oraz staż zawodowy</li>
               </ul>
             </div>
-            <p className="text-center fs-20 mt-15">Okres realizacji projektu: 01.07.2024 r. – 30.06.2025 r.</p>
+            <p className="text-center fs-20 mt-15">Okres realizacji projektu: 01.07.2024 r. – 31.08.2025 r.</p>
 
           </div>
 

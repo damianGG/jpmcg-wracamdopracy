@@ -55,7 +55,7 @@ export default function News() {
 
                         rynku pracy (zwłaszcza kobiet i osób znajdujących się w trudnej sytuacji na rynku
                         pracy z powodu trudności godzenia życia zawodowego z obowiązkami rodzinnymi/
-                        opiekuńczymi) w okresie realizacji projektu tj. od 01.07.2024 r. do 30.06.2025 r. Co
+                        opiekuńczymi) w okresie realizacji projektu tj. od 01.07.2024 r. do 31.08.2025 r. Co
                         najmniej 65% grupy mają stanowić kobiety powracające na rynek pracy.
                         <br />
                         Dzięki udziałowi w projekcie Uczestnicy uzyskają kwalifikacje zawodowe, podniosą
